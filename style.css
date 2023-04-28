@@ -1,0 +1,131 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-color: hsl(225, 100%, 94%);
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+   width: 60%;
+   margin: auto;
+   height: 80vh;
+   background-color: white;
+   -webkit-box-shadow: -1px 9px 40px -13px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -1px 9px 40px -13px rgba(66, 68, 90, 1);
+    box-shadow: -1px 9px 40px -13px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+}
+.attribution{
+    position: fixed;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.photo{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    justify-items: center;
+}
+.long-text{
+    width: 70%;
+    text-align: center;
+    color: #717FA6;
+}
+.gap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+.button1{
+    background-color: hsl(225, 100%, 98%);
+    padding: 5%;
+    border-radius: 10px;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    gap: 3px;
+}
+.plan{
+    font-weight: 900;
+    color: #1F2E55;
+}
+.price{
+    color: #717FA6;
+}
+.change{
+    font-weight: 700;
+    color: #382AE1;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.change:hover{
+    color: #766CF1;
+    text-decoration: none;
+}
+.top-text{
+    margin-top: 20px;
+    color: #1F2E55;
+    font-size: 28px;
+    font-weight: 900;
+}
+.button2{
+    padding: 3% 21%;
+    background-color: #382AE1;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.button2:hover{
+    background-color: #766CF1;
+}
+.last-text{
+    font-size: 15px;
+    font-weight: 900;
+    color: #717FA6;
+}
+.last-text:hover{
+    color: #1F2E55;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #766CF1;
+}
