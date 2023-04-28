@@ -43,7 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 30px;
+    gap: 15px;
     align-items: center;
     justify-items: center;
 }
@@ -99,7 +99,7 @@ body{
     text-decoration: none;
 }
 .top-text{
-    margin-top: 40px;
+    margin-top: 20px;
     color: #1F2E55;
     font-size: 28px;
     font-weight: 900;
@@ -116,7 +116,6 @@ body{
     background-color: #766CF1;
 }
 .last-text{
-    margin-top: 10px;
     font-size: 15px;
     font-weight: 900;
     color: #717FA6;
