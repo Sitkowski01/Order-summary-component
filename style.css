@@ -66,7 +66,7 @@ body{
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    gap: 15px;
+    gap: 25px;
 }
 .button1{
     background-color: hsl(225, 100%, 98%);
